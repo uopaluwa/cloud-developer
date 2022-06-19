@@ -27,6 +27,11 @@ We've included a few helper functions to handle some of these concepts and we're
 import {filterImageFromURL, deleteLocalFiles} from './util/util';
 ```
 
+### Using the deployed service
+The image-filters eb url : http://udagram-submission-ufedo-dev.us-east-1.elasticbeanstalk.com/
+
+To test the new endpoint with an image, paste this link in your browser or postman: http://udagram-submission-ufedo-dev.us-east-1.elasticbeanstalk.com/filteredImage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
+
 ### Deploying your system
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
